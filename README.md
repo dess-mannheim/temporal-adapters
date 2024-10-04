@@ -18,3 +18,4 @@ We propose temporally aligned Large Language Models (LLMs) as a tool for longitu
 
 - `eval_llama3_empiricalData.py` extracts answers on YouGov's *Britains's Mood, Measured Weekly* from LLMs equipped with Temporal Adapters, week by week
 - `eval_llama3_syntheticMix.py` extracts answers on YouGov's *Britains's Mood, Measured Weekly* from LLMs equipped with Temporal Adapters trained on synthetically mixed data
+- `extract_answers.py` implements a function for scoring survey answers based on token probabilities of causal language models
