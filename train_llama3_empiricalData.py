@@ -90,7 +90,7 @@ for seed in seeds:
         lm_tweets.save_to_disk(f'./data/chunked_tweets/chunked_tweets_llama3_yougov-{survey_date:%Y-%m-%d}')
 
          # Set the directory where checkpoints will be stored
-        training_directory = f'./data/llama3_empirical/llama3_empirical_lr5-6/lora_{survey_date:%Y_%m_%d}'
+        training_directory = f'./data/llama3_empirical/llama3_empirical_lr5-6/lora_{survey_date:%Y_%m_%d}_seed{seed}'
         
         # If the training_directory already exists, resume training for another epoch
         if os.path.isdir(training_directory):
