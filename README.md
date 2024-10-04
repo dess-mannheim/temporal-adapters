@@ -1,7 +1,7 @@
 # Extracting Affect Aggregates from Longitudinal Social Media Data with Temporal Adapters for Large Language Models
 Authors: Georg Ahnert, Max Pellert, David Garcia, and Markus Strohmaier
 
-Also check out our [preprint on arXiv](https://arxiv.org/abs/2409.17990)
+Also check out our <a href="https://arxiv.org/abs/2409.17990" target="_blank">preprint on arXiv</a>
 
 ### Abstract
 
@@ -9,12 +9,12 @@ We propose temporally aligned Large Language Models (LLMs) as a tool for longitu
 
 ### Contents
 
-#### Temporal Adapter Training
+#### 🦙 Temporal Adapter Training
 
 - `train_llama3_empiricalData.py` trains Temporal Adapters from weekly splits of Twitter data and can be run with `accelerate launch` for distributed training.
 - `train_llama3_syntheticMix.py` trains Temporal Adapters from synthetically mixed (labeled) tweets and can be run with `accelerate launch` for distributed training.
 
-#### Survey Question Inference with Temporal Adapters
+#### 🤖 Survey Question Inference with Temporal Adapters
 
 - `eval_llama3_empiricalData.py` extracts answers on YouGov's *Britains's Mood, Measured Weekly* from LLMs equipped with Temporal Adapters, week by week
 - `eval_llama3_syntheticMix.py` extracts answers on YouGov's *Britains's Mood, Measured Weekly* from LLMs equipped with Temporal Adapters trained on synthetically mixed data
