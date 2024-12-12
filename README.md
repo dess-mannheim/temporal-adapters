@@ -1,7 +1,4 @@
 # Extracting Affect Aggregates from Longitudinal Social Media Data with Temporal Adapters for Large Language Models
-Authors: Georg Ahnert, Max Pellert, David Garcia, and Markus Strohmaier
-
-Also check out our <a href="https://arxiv.org/abs/2409.17990" target="_blank">preprint on arXiv</a>
 
 ### Abstract
 
