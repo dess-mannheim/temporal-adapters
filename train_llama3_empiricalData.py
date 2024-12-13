@@ -36,8 +36,7 @@ def group_texts(examples):
     # Compute length of concatenated texts
     total_length = len(concatenated_examples[list(examples.keys())[0]])
     # We drop the last chunk if it's smaller than chunk_size
-    if total_length >= chunk_size:
-        total_length = (total_length // chunk_size) * chunk_size
+    total_length = (total_length // chunk_size) * chunk_size
     # Split by chunks of max_len
     result = {
         k: [t[i : i + chunk_size] for i in range(0, total_length, chunk_size)]
